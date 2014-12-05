@@ -55,6 +55,11 @@ h3{
   height:350px;
 }
 
+.textbox span{
+  padding:10px;
+  text-align:center;
+  font-size:1em;
+}
 
 
 }
