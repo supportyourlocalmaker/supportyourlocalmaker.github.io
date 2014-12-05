@@ -14,7 +14,7 @@
 .headertext{
   width:500px;
   margin:auto;
-  
+
 }
 
 
@@ -25,8 +25,14 @@
 }
 
 .sitebox{
-  width:200px;
+  width:350px;
+  border-radius:2%;
+  background-color:white;
+}
 
+.imagebox{
+  width:350px;
+  height:350px;
 }
 
 
