@@ -17,21 +17,27 @@ layout: default
 
 	{% for link in site.brooklyn %}
 
-		<a href="{{link.url}}">
+
 		<div class="sitebox">
 
 
 			<div class="imagebox">
+			<a href="{{link.url}}">
 			<img src="{{link.image}}" />
+			</a>
 			</div>
 
 			<div class="textbox">
+			<a href="{{link.url}}">
 			<h3>{{link.title}}</h3>
-			<span>{{link.description}}</span>
+			</a>
+			<a href="{{link.url}}">
+				<span>{{link.description}}</span>
+			</a>
 
 			</div>
 		</div>
-		</a>
+		
 
 
 		</div>
