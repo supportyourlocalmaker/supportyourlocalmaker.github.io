@@ -39,7 +39,7 @@
   float:left;
 }
 
-.sitebox:nth-child(3n+1){
+.sitebox:nth-child(3n+2){
   margin-left:75px;
   margin-right:75px;
 }
