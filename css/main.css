@@ -3,11 +3,22 @@
 
 .headerbox{
   width:100%;
+  height:300px;
   max-width:2000px;
   background-image: url("/images/header.jpg");
   background-size:cover;
 }
 
+.mainbody{
+  width:100%;
+  background-color:#eeeeee;
+  padding-bottom:50px;
+}
+
+.sitebox{
+  width:200px;
+  
+}
 
 
 
