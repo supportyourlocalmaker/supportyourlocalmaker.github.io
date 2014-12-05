@@ -22,6 +22,7 @@
   width:100%;
   background-color:#eeeeee;
   padding-bottom:50px;
+  min-height:1000px;
 }
 
 .grid{
@@ -39,8 +40,8 @@
 }
 
 .sitebox:nth-child(3n+1){
-  margin-left:40px;
-  margin-right:40px;
+  margin-left:75px;
+  margin-right:75px;
 }
 
 .imagebox{
