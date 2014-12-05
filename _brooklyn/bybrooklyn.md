@@ -2,5 +2,5 @@
 title: By Brooklyn
 description: A local store on Smith St selling Brooklyn-made goods.
 image: /images/bybrooklyn.jpg
-url: http://bybrooklyn.com/
+siteurl: http://bybrooklyn.com/
 ---
