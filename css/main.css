@@ -24,6 +24,18 @@
   padding-bottom:50px;
 }
 
+.grid{
+  -moz-column-count: 3;
+  -moz-column-gap: 40px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 40px;
+  column-count: 3;
+  column-gap: 40px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
 .sitebox{
   width:350px;
   border-radius:2%;

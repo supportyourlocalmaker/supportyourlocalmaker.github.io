@@ -13,29 +13,31 @@ layout: default
 
 <div class="mainbody">
 
+	<div class="grid">
+
+	{% for link in site.brooklyn %}
+
+		<a href="{{link.url}}">
+		<div class="sitebox">
 
 
-{% for link in site.brooklyn %}
+			<div class="imagebox">
+			<img src="{{link.image}}" />
+			</div>
 
-	<a href="{{link.url}}">
-	<div class="sitebox">
+			<div class="textbox">
+			<h3>{{link.title}}</h3>
+			<span>{{link.description}}</span>
+
+			</div>
+		</div>
+		</a>
 
 
-		<div class="imagebox">
-		<img src="{{link.image}}" />
 		</div>
 
-		<div class="textbox">
-		<h3>{{link.title}}</h3>
-		<span>{{link.description}}</span>
-
-		</div>
-	</div>
-	</a>
-
+	{% endfor %}
 
 	</div>
-
-{% endfor %}
 
 </div>
