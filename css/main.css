@@ -1,7 +1,12 @@
 @media (min-width: 1025px) {
 
 
-
+.headerbox{
+  width:100%;
+  max-width:2000px;
+  background-image: url("/images/header.jpg")
+  background-size:cover;
+}
 
 
 
