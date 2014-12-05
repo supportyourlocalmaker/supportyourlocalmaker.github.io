@@ -37,7 +37,7 @@
   background-color:white;
   display:inline-block;
   float:left;
-  padding-top:30px;
+  margin-top:30px;
 }
 
 .sitebox:nth-child(3n+2){
