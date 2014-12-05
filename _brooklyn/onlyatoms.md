@@ -1,6 +1,6 @@
 ---
-title: dotBK
-description: Designer-scale menswear. Mass-produced prices. Driven by stories.
-image: /images/dotbk.jpg
-siteurl: https://www.dotbk.com/
+title: Only Atoms
+description: Brooklyn-made running gear and athletic clothing.
+image: /images/onlyatoms.jpg
+siteurl: https://onlyatoms.com/
 ---
