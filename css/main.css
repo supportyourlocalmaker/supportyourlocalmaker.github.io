@@ -18,6 +18,11 @@
 
 }
 
+h3{
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
 
 .mainbody{
   width:100%;

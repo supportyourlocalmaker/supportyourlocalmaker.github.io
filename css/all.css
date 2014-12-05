@@ -10,6 +10,7 @@ body{
   line-height:22px;
   margin:0px;
   padding:0px;
+  color:#2c2c2c;
 }
 
 h1{
@@ -22,3 +23,7 @@ a {
   color:#cc0000;
   text-decoration: none;
  }
+
+h3 a{
+  color:#2c2c2c;
+}
