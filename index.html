@@ -2,16 +2,40 @@
 layout: default
 ---
 
-<body>
+<div class="headerbox">
+
+	<h1>Brooklyn Made Holiday Gift Ideas</h1>
+	<h2>A selection of stores, websites and individuals offering Brooklyn-made goods. Perfect for the holiday season. Made by @tomcritchlow and open source on Gitub</h2>
+
+
+</div>
+
+
+<div class="mainbody">
+
+
 
 {% for link in site.brooklyn %}
-{{link.image}}
+
+	<a href="{{link.url}}">
+	<div class="sitebox">
+
+
+		<div class="imagebox">
+		<img src="{{link.image}}" />
+		</div>
+
+		<div class="textbox">
+		<h3>{{link.title}}</h3>
+		<span>{{link.description}}</span>
+
+		</div>
+	</div>
+	</a>
+
+
+	</div>
+
 {% endfor %}
 
-
-
-
-
-
-  </body>
-</html>
+</div>
