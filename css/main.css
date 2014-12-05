@@ -7,6 +7,7 @@
   max-width:2000px;
   background-image: url("/images/header.jpg");
   background-size:cover;
+  padding-top:20px;
 }
 
 .mainbody{
@@ -17,7 +18,7 @@
 
 .sitebox{
   width:200px;
-  
+
 }
 
 
