@@ -8,6 +8,11 @@
   background-image: url("/images/header.jpg");
   background-size:cover;
   padding-top:20px;
+  text-align:center;
+}
+
+h1{
+  width:500px;
 }
 
 .mainbody{
