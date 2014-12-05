@@ -29,7 +29,6 @@
 .grid{
   width: 1200px;
   margin: auto;
-  padding-top: 30px;
 }
 
 .sitebox{
@@ -38,6 +37,7 @@
   background-color:white;
   display:inline-block;
   float:left;
+  padding-top:30px;
 }
 
 .sitebox:nth-child(3n+2){
