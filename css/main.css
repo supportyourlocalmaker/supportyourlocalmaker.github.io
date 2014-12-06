@@ -10,13 +10,12 @@
   padding-top:20px;
   text-align:center;
   background-color:white;
-  color:black;
 }
 
 .headertext{
   width:600px;
   margin:auto;
-  color:white;
+  color:black;
 
 }
 
@@ -68,6 +67,8 @@ h3{
 .sitebox p{
   width:90%;
   text-align:center;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .footer{
