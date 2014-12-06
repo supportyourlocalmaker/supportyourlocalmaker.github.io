@@ -5,10 +5,12 @@
   width:100%;
   height:300px;
   max-width:2000px;
-  background-image: url("/images/kentile.jpg");
+  /*background-image: url("/images/kentile.jpg");*/
   background-size:cover;
   padding-top:20px;
   text-align:center;
+  background-color:white;
+  color:black;
 }
 
 .headertext{
@@ -21,7 +23,7 @@
 h1{
   font-size:45px;
   line-height:55px;
-  font-weight:400;
+  font-weight:600;
   text-transform:uppercase;
 }
 
@@ -35,6 +37,7 @@ h2{
   background-color:#eeeeee;
   width:100%;
   padding-top:50px;
+  min-height:700px;
 }
 
 .gridbox{
