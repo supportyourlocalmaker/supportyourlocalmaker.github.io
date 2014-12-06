@@ -64,6 +64,16 @@ h2{
   margin-right:75px;
 }
 
+h3{
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.sitebox p{
+  width:90%;
+  text-align:center;
+}
+
 .footer{
   width:100%;
   background-color:#eeeeee;
