@@ -51,4 +51,23 @@ h1{
   padding-bottom:25px;
 }
 
+.footer{
+  width:100%;
+  background-color:#eeeeee;
+  height:80px;
+}
+
+.footer div{
+  padding:20px;
+  width:300px;
+  margin:auto;
+}
+
+
+
+
+
+
+
+
 }
