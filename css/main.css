@@ -18,11 +18,7 @@
 
 }
 
-h3{
-  text-align: center;
-  font-size: 1.5em;
-  text-transform: uppercase;
-}
+
 
 .mainbody{
   width:100%;
@@ -31,35 +27,7 @@ h3{
   min-height:1000px;
 }
 
-.grid{
-  width: 1200px;
-  margin: auto;
-}
 
-.sitebox{
-  width:350px;
-  border-radius:2%;
-  background-color:white;
-  display:inline-block;
-  float:left;
-  margin-top:30px;
-}
-
-.sitebox:nth-child(3n+2){
-  margin-left:75px;
-  margin-right:75px;
-}
-
-.imagebox{
-  width:350px;
-  height:350px;
-}
-
-.subtext{
-  padding:10px;
-  text-align:center;
-  font-size:1em;
-}
 
 .embedgrid{
   -moz-column-count: 3;
@@ -76,6 +44,8 @@ h3{
 
 .embedbox{
   width:350px;
+  display:inline-block;
+  padding-bottom:25px;
 }
 
 }
