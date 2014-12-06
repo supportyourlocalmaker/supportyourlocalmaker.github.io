@@ -2,12 +2,14 @@
 layout: default
 sites:
  - http://www.fiercelymade.com
- - http://www.coilanddrift.com/
+ - http://www.coilanddrift.com
+ - http://www.fiercelycurious.com
+ - http://www.onlyatoms.com
+ - http://www.dotbk.com
+ - http://www.bybrooklyn.com
 ---
 
-{% for item in page.sites %}
-{{item}}
-{% endfor %}
+
 
 <div class="headerbox">
 	<div class="headertext">
@@ -19,46 +21,12 @@ sites:
 </div>
 
 
-<div class="mainbody">
-
-	<div class="grid">
-
-	{% for link in site.brooklyn %}
-
-
-		<div class="sitebox">
-
-
-			<div class="imagebox">
-			<a href="{{link.siteurl}}">
-			<img src="{{link.image}}" />
-			</a>
-			</div>
-
-			<div class="textbox">
-			<a href="{{link.siteurl}}">
-			<h3>{{link.title}}</h3>
-			</a>
-			<a href="{{link.siteurl}}">
-				<div class="subtext">{{link.description}}</div>
-			</a>
-
-			</div>
-		</div>
-
-
-
-
-
-	{% endfor %}
-		</div>
-	</div>
 
 <div class="embedgrid">
 
-	{% for link in site.brooklyn %}
+	{% for link in page.sites %}
 	<div class="embedbox">
-	<a class="embedly-card" href="{{link.siteurl}}"></a>
+	<a class="embedly-card" href="{{link}}"></a>
 	</div>
 
 	{% endfor %}
