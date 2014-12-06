@@ -46,3 +46,9 @@ layout: default
 	{% endfor %}
 		</div>
 	</div>
+
+	{% for link in site.brooklyn %}
+	<a class="embedly-card" href="{{link.siteurl}}"></a>
+
+	{% endfor %}
+	<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
