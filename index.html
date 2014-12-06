@@ -47,10 +47,13 @@ layout: default
 		</div>
 	</div>
 
+<div class="embedgrid">
+
 	{% for link in site.brooklyn %}
-	<div class="sitebox">
+	<div class="embedbox">
 	<a class="embedly-card" href="{{link.siteurl}}"></a>
 	</div>
 
 	{% endfor %}
+</div>
 	<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
