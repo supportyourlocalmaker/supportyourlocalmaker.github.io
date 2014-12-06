@@ -12,7 +12,7 @@
 }
 
 .headertext{
-  width:500px;
+  width:600px;
   margin:auto;
   color:white;
 
@@ -20,7 +20,15 @@
 
 h1{
   font-size:45px;
+  line-height:55px;
   font-weight:400;
+  text-transform:uppercase;
+}
+
+h2{
+  font-size:30px;
+  line-height:35px;
+  font-weight:300;
 }
 
 .mainbody{
