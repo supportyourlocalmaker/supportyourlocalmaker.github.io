@@ -1,6 +1,13 @@
 ---
 layout: default
+sites:
+	- http://www.fiercelymade.com
+	- http://www.coilanddrift.com/
 ---
+
+{% for item in page.sites %}
+{{item}}
+{% endfor %}
 
 <div class="headerbox">
 	<div class="headertext">
