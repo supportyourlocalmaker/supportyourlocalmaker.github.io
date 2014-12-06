@@ -55,7 +55,8 @@ h2{
   border-radius:2%;
   background-color:white;
   display:inline-block;
-
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .sitebox:nth-child(3n+2){
