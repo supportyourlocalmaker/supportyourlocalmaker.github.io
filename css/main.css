@@ -31,17 +31,10 @@ h2{
   font-weight:300;
 }
 
-.mainbody{
-  width:100%;
-  background-color:#eeeeee;
-  padding-bottom:50px;
-  min-height:1000px;
-}
-
 .greycontainer{
   background-color:#eeeeee;
   width:100%;
-  min-height:1000px;
+  padding-top:50px;
 }
 
 .gridbox{
