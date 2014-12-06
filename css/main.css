@@ -49,8 +49,10 @@ h2{
 }
 
 .sitebox{
+  float:left;
   width:350px;
   border-radius:2%;
+
 }
 
 .sitebox:nth-child(3n+1){
