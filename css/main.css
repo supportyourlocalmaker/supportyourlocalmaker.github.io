@@ -41,10 +41,8 @@ h2{
 }
 
 .greycontainer{
-  background-color:#eeeeee;
   width:100%;
   padding-top:50px;
-  min-height:2400px;
 }
 
 .gridbox{
@@ -82,7 +80,7 @@ h3{
 
 .footer{
   width:100%;
-  background-color:#eeeeee;
+  clear:both;
 }
 
 .footer div{
