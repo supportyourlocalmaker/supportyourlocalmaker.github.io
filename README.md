@@ -1,8 +1,16 @@
 Support Your Local Maker
 ========
 
-Hi there, this project is the brainchild of @tomcritchlow - if you want more info tweet me there or email me at tjcritchlow@gmail.com.
+This project has been built by @tomcritchlow. It's my first ever Github project so please forgive any mistakes or problems with forking/branching and brunching or whatever it is Github lets you do.
 
-I welcome any and all contributions. This is my first ever project on Github so please go easy on me :)
+So here's how you can add your own link to the site.
 
-Thanks!
+1) Email me at tjcritchlow@gmail.com
+
+2) Fork/commit/merge/branch whatever a file called sitename.md in the _brooklyn folder. The formatting should be the same as the other files in there. And add your image (350px x 350px) to the images folder.
+
+Pull requests welcome - I'm not precious about the design at all.
+
+Oh - and if you're really ambitious and want to add your own city aside from Brooklyn then please do. I think the site structure would work pretty easily with a /austin or /sanfrancisco or /boston or whatever.
+
+Thank you and happy holiday!
