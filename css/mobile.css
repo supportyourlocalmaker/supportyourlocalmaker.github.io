@@ -13,7 +13,7 @@
     }
 
     .headertext{
-      width:600px;
+      width:90%;
       margin:auto;
       color:white;
     }
@@ -42,24 +42,18 @@
     }
 
     .gridbox{
-      width:1200px;
+      width:100%;
       margin:auto;
     }
 
     .sitebox{
       float:left;
-      width:350px;
-      height:480px;
+      width:90%;
       border-radius:2%;
       background-color:white;
       display:inline-block;
       margin-top:20px;
       margin-bottom:20px;
-    }
-
-    .sitebox:nth-child(3n+2){
-      margin-left:75px;
-      margin-right:75px;
     }
 
     h3{
@@ -81,7 +75,7 @@
 
     .footer div{
       padding:20px;
-      width:500px;
+      width:90%;
       margin:auto;
       text-align:center;
     }
