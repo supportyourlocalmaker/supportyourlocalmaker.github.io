@@ -52,13 +52,14 @@
       margin:auto;
       border-radius:2%;
       background-color:white;
-      margin-top:20px;
-      margin-bottom:20px;
+      margin-top:30px;
+      margin-bottom:30px;
     }
 
     .sitebox img{
       width:100%;
     }
+
 
     h3{
       text-align:center;
@@ -70,6 +71,10 @@
       text-align:center;
       margin-left:auto;
       margin-right:auto;
+    }
+
+    .description{
+      padding-bottom:15px;
     }
 
     .footer{
