@@ -47,12 +47,16 @@
     }
 
     .sitebox{
-      width:350px;
+      max-width:350px;
       margin:auto;
       border-radius:2%;
       background-color:white;
       margin-top:20px;
       margin-bottom:20px;
+    }
+
+    .sitebox img{
+      width:100%;
     }
 
     h3{
