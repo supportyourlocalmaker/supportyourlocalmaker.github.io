@@ -3,9 +3,6 @@
 
 .headerbox{
   width:100%;
-  max-width:2000px;
-  /*background-image: url("/images/kentile.jpg");*/
-  background-size:cover;
   padding-top:20px;
   padding-bottom:20px;
   text-align:center;
